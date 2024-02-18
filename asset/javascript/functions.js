@@ -72,6 +72,8 @@ function displayArticles(articles) {
         <p>in data ${article.date}</p>
         <p>${article.description}</p>
         <img src="./images/${article.image}" alt="${article.image}">
+        <p>${article.type}</p>
+        
 
         `;
 
