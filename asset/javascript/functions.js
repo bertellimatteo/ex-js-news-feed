@@ -61,24 +61,22 @@ function displayArticles(articles) {
     container.innerHTML = ""; // Cancella i contenuti precedenti
 
     articles.forEach(article => {
-        const articleElement = document.createElement("div");
-        articleElement.classList.add("card", "mb-4", "p-4");
-        articleElement.style.width = "100%";
+        const articleElement = document.createElement("article");
+        articleElement.classList.add("articles");
+        // articleElement.style.width = "100%";
 
         // Costruisci il contenuto dell'articolo
         const content = `
 
-        <article>
+       
+  
+        <h2 class="">${article.title}</h2>
+        <h3 class="">pubblicato da ${article.author}</h3>
+        <p class="">in data ${article.date}</p>
+        <p class="">${article.description}</p>
+        <img src="./images/${article.image}" class="" alt="${article.image}">
+       
 
-
-
-
-
-            <h2 class="card-title">${article.title}</h2>
-            <h5 class="card-title">pubblicato da ${article.author}</h5>
-            <p class="card-title">in data ${article.date}</p>
-            <p class="card-text">${article.description}</p>
-            <img src="./images/${article.image}" class="card-img-top mb-3 rounded" alt="${article.image}">
         `;
 
         articleElement.innerHTML = content;
