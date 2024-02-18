@@ -5,7 +5,7 @@ const articles = [
         author: "Diana Rossi",
         date: "2023-01-10",
         description: "Un breve articolo sulla recente scoperta di una specie di papera di gomma mai vista prima.",
-        image: "../img/rubber-duck.jpg",
+        image: "../asset/img/rubber-duck.jpg",
         type: ["geo", "tech"],
     },
     {
@@ -13,7 +13,7 @@ const articles = [
         author: "Marco Bianchi",
         date: "2023-02-20",
         description: "Esplorazione di tradizioni culinarie dimenticate e la ricerca di sapori autentici.",
-        image: "kitchen-food.jpg",
+        image: "../asset/img/kitchen-food.jpg",
         type: ["cucina"],
     },
     {
@@ -21,7 +21,7 @@ const articles = [
         author: "Alessandra Marino",
         date: "2023-03-10",
         description: "Un viaggio nelle profondità dell'oceano alla scoperta di creature misteriose e inesplorate.",
-        image: "deep-sea.jpg",
+        image: "../asset/img/deep-sea.jpg",
         type: ["viaggi"],
     },
     {
@@ -29,7 +29,7 @@ const articles = [
         author: "Gabriele Neri",
         date: "2023-04-05",
         description: "Un'analisi delle tendenze e delle sfide nell'arte contemporanea, con interviste a artisti emergenti.",
-        image: "modern-art.jpg",
+        image: "../asset/img/modern-art.jpg",
         type: ["arte", "tech"],
     },
 ];
