@@ -6,56 +6,63 @@
 
   <link rel="stylesheet" href="./asset/css/style.css">
   <title>Document</title>
+
 </head>
 <body>
+
   <div class="container">
-
-    <header>
-
-      <h1 class="header__title">News Feed</h1>
   
-      <nav class="header__navbar">
+      <header>
   
-        <form>
+          <h1 class="header__title">News Feed</h1>
   
-          <label for="form-tags">Filtra per tags:</label>
-          <select name="form-tags" id="form-tags" onchange="ciclo()">
-              <option selected>Tutti i tag</option>
-              <option value="word">Geo</option>
-              <option value="art">Arte</option>
-              <option value="tech">Tech</option>
-              <option value="trips">Viaggi</option>
-              <option value="cuisine">Cucina</option>
-          </select>
-            
-        </form>
+          <nav class="header__navbar">
   
-        <form>
+              <form>
   
-          <input type="checkbox" name="newsSaved" id="newsSaved"/>
-          <label for="newsSaved">Solo news salvate</label>
+                  <label for="form-tags">Filtra per tags:</label>
+                  <select name="form-tags" id="form-tags" onchange="ciclo()">
+                      <option selected>Tutti i tag</option>
+                      <option value="geo">Geo</option>
+                      <option value="arte">Arte</option>
+                      <option value="tech">Tech</option>
+                      <option value="viaggi">Viaggi</option>
+                      <option value="cucina">Cucina</option>
+                  </select>
+                      
+              </form>
   
-        </form>
-
-      </nav>
-      
-    </header>
-
-    <main>
-      <article id="main__articles" class="articles"></article>
-
-    </main>
-
-
-
-    <!-- bla bla bla qua vanno i vari articoli  -->
-
-
-
-
+              <form>
+  
+                  <input type="checkbox" name="newsSaved" id="newsSaved"/>
+                  <label for="newsSaved">Solo news salvate</label>
+  
+              </form>
+  
+          </nav>
+          
+      </header>
+  
+      <main>
+          <div id="card-articles" class="articles">
+  
+  
+              
+          </div>
+  
+          <div class="article">
+            <h2 class="card-title">${article.title}</h2>
+  
+  
+  
+  
+          </div>
+  
+      </main>
+  
   </div>
-
-  <script src="./asset/javascript/articles.js"></script>  
+  
   <script src="./asset/javascript/functions.js"></script>  
-</body>
+  
+  </body>
 </html>
