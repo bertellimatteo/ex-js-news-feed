@@ -11,7 +11,7 @@ label per gli articoli salvati
 
 card
 title della card
-news salvate (posizione fixed)
+news salvate (posizione fixed) bookmarks
 sottotitolo
 data
 paragrafo

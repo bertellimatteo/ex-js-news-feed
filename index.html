@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./asset/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+
+      <h1 class="header__title">News Feed</h1>
+  
+      <nav class="header__navbar">
+  
+        <form>
+  
+          <label for="form-tags">Filtra per tags:</label>
+          <select name="form-tags" id="form-tags" onchange="ciclo()">
+              <option selected>Tutti i tag</option>
+              <option value="word">Geo</option>
+              <option value="art">Arte</option>
+              <option value="tech">Tech</option>
+              <option value="trips">Viaggi</option>
+              <option value="cuisine">Cucina</option>
+          </select>
+            
+        </form>
+  
+        <form>
+  
+          <input type="checkbox" name="newsSaved" id="newsSaved"/>
+          <label for="newsSaved">Solo news salvate</label>
+  
+        </form>
+
+      </nav>
+      
+    </header>
+
+    <main>
+      <article id="main__articles" class="articles"></article>
+
+    </main>
+
+
+
+    <!-- bla bla bla qua vanno i vari articoli  -->
+
+
+
+
+  </div>
+
+  <script src="./asset/javascript/articles.js"></script>  
+  <script src="./asset/javascript/functions.js"></script>  
+</body>
+</html>

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #023047;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.header__title{
+  color: white;
+  font-size: 3rem;
+  
+  margin: 2rem;
+}
+
+.header__navbar{
+  background: white;
+  
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form > * {
+  margin: 0 0.25rem;
+}
+
+
+
+.articles{
+  height: 500px;
+  width: 500px;
+  background: #000;
+}
