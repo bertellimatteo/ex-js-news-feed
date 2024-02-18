@@ -57,6 +57,10 @@ main .articles{
   text-align: left;
 }
 
+main .articles > p{
+  margin: 0.5rem 0;
+}
+
 
 img{
   width: 100%;

@@ -63,19 +63,15 @@ function displayArticles(articles) {
     articles.forEach(article => {
         const articleElement = document.createElement("article");
         articleElement.classList.add("articles");
-        // articleElement.style.width = "100%";
 
         // Costruisci il contenuto dell'articolo
         const content = `
 
-       
-  
-        <h2 class="">${article.title}</h2>
-        <h3 class="">pubblicato da ${article.author}</h3>
-        <p class="">in data ${article.date}</p>
-        <p class="">${article.description}</p>
-        <img src="./images/${article.image}" class="" alt="${article.image}">
-       
+        <h2>${article.title}</h2>
+        <h3>pubblicato da ${article.author}</h3>
+        <p>in data ${article.date}</p>
+        <p>${article.description}</p>
+        <img src="./images/${article.image}" alt="${article.image}">
 
         `;
 
